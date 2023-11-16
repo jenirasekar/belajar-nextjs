@@ -5,7 +5,7 @@ const DetailProductPage = () => {
   return (
     <div>
       <h1>Detail Produk</h1>
-      <p>Product: {query.prodct}</p>
+      <p>Product: {query.product}</p>
     </div>
   );
 };
