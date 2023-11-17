@@ -8,6 +8,7 @@ const ProductPage = () => {
       if (!isLogin) {
         push('/auth/login');
       }
+// eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
     
     return (

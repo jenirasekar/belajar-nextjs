@@ -1,0 +1,3 @@
+clean code tips:
+1. folder pages dikhususkan untuk routing saja, kalau ingin membuat tampilan disarankan membuat folder tersendiri, misalnya views dan implement di dalam folder pages
+2. styling lebih baik menggunakan .module.css untuk styling yang lebih detail (jika membuat layouting) dan sebisa mungkin menggunakan global css atau scss untuk styling yang umum lalu diimport ke file css untuk styling di .module.css

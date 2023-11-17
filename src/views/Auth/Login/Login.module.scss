@@ -1,0 +1,11 @@
+// implementasi sass
+@import "@/styles/colors.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: map-get($schema, primary);
+}
