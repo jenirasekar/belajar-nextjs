@@ -6,7 +6,7 @@ type AppShellProps = {
   children: React.ReactNode;
 };
 
-const disableNavbar = ["/auth/register", "/auth/login"];
+const disableNavbar = ["/auth/register", "/auth/login", "/404"];
 
 const AppShell = (props: AppShellProps) => {
   const { children } = props;
