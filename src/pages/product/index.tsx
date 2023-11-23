@@ -13,12 +13,12 @@ const ProductPage = () => {
   const { push } = useRouter();
   const [products, setProducts] = useState<ProductType[]>([]);
 
-  useEffect(() => {
-    if (!isLogin) {
-      push("/auth/login");
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLogin, push]);
+  // useEffect(() => {
+  //   if (!isLogin) {
+  //     push("/auth/login");
+  //   }
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, [isLogin, push]);
 
   useEffect(() => {
     fetch("/api/product")
